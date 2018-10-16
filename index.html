@@ -6,11 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Telephone Number Validator</title>
   <link rel="stylesheet" href="style.css">
-  <script src="tnv.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <script src="tnv.js" async></script>
 </head>
 <body>
   <main>
-
+    <div id="container">
+      <i class="fas fa-phone fa-7x" id="phone-icon"></i>
+      <form action="" id="check-num">
+        <input type="text" name="input-text" id="input-text" placeholder="Enter telephone number" autocomplete="off" autofocus>
+        <button id="submit-btn">click me</button>
+      </form>
+      <p id="result"></p>
+    </div>
   </main>
 </body>
 </html>
